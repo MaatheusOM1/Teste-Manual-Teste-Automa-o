@@ -86,6 +86,17 @@ python teste_api.py</code></pre>
 <li><strong>Baixe uma imagem de sua preferência e salve no mesmo local do programa com o nome "imagem.jpg" (obrigatório ser jpg)</strong></li>
 </ul>
 
+<hr>
+
+<h2>✅ Testes Funcional (products)</h2>
+<p>O script de <strong>Produtos</strong> realiza:</p>
+<ol>
+<li>Exibe todos os produtos e suas informações</li>
+<li>Exibe um erro caso o status da requisição falhe (diferente de 200)</li>
+</ol>
+
+<hr>
+
 <h3>❗ Possíveis Problemas e Soluções</h3>
 
 <p>⚠️ <strong>Se o teste falhar, verifique:</strong></p>
@@ -101,7 +112,6 @@ python teste_api.py</code></pre>
 <ul>
 <li>🔹 O script de <strong>Selenium</strong> inclui um <code>time.sleep(15)</code> antes de fechar o navegador para que o usuário possa visualizar o resultado.</li>
 <li>🔹 O script de <strong>API</strong> lida com autenticação e envio de arquivos.</li>
-<li>🔹 Para aumentar a robustez, considere utilizar logs e screenshots para melhor depuração.</li>
 </ul>
 
 <hr>
